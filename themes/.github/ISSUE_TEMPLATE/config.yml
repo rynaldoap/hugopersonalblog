@@ -1,0 +1,21 @@
+blank_issues_enabled: false
+contact_links:
+  - name: PaperMod Discussions
+    url: https://github.com/adityatelange/hugo-PaperMod/discussions
+    about: Please ask and answer questions/doubts here, do not open an issue for questions.
+theme: "PaperMod"
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: example
+      name: example.org
+      url: https://example.org
+      weight: 30
+

@@ -1,0 +1,51 @@
+baseURL = "https://example.org"
+title = "mzfr's Blog"
+theme = "PaperMod"
+paginate = 5
+googleAnalytics = "UA-147356794-1"
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Notes"
+url = "https://github.com/mzfr/notes/wiki/"
+
+[[menu.main]]
+name = "Rekomendasi Buku"
+url = "/rekomendasi/"
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+
+[params]
+env = "production"
+ShowReadingTime = true
+
+  [params.homeInfoParams]
+  enabled = true
+  Title = "Hi 👋"
+  Content = "I'm Mehtab Zafar, a developer who spends most of his time doing bug bounties."
+
+  [[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/0xmzfr"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/mzfr"
+
+  [[params.socialIcons]]
+  name = "email"
+  url = "mailto:hello@mzfr.me"
